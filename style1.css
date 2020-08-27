@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+*{
+box-sizing:border-box;
+}
+
+h1{
+color:maroon;
+text-align:center;
+size:30px;
+margin:20px;
+}
+#h2{
+float:right;
+background:red;
+border:1px solid black;
+margin:0px;
+
+}
+#h21{
+float:right;
+background:cyan;
+border:1px solid black;
+margin:0px;
+position:relative;
+}
+#h22{
+float:right;
+background:pink;
+border:1px solid black;
+margin:0px;
+
+}
+body{
+margin:0px;
+padding:0px;
+background:pink;
+border:2px solid black;
+}
+.row{
+width:100%;
+
+}
+
+section{ 
+float:left;
+display:block;
+margin:10px;
+padding:10px;
+background:grey;
+border:1px solid black;
+
+overflow:auto;
+}
+
+@media (min-width:992px) 
+{
+section{
+width:28%;
+}
+
+}
+@media (min-width:768px) and (max-width:991px)
+{
+section{
+width:44%;
+}
+section:nth-child(3)
+{
+width:93%;
+}
+</style>
+</head>
+</html>
